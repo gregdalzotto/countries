@@ -1,31 +1,3 @@
-International Country Codes and Calling Data Specification (ISO 3166-1)
-Contract{
-   "[ISO 3166-1 ALPHA-2]":{
-      "name":"string",
-      "callingCode":"number",
-      "isoA2":"string",
-      "isoA3":"string",
-      "isoNum":"number"
-   }
-}"Description
-This JSON structure represents country information where each entry is indexed by the country""s ISO 3166-1 alpha-2 code. Each country object contains:
-
-name: Full country name
-callingCode: International calling code without prefix
-isoA2: ISO 3166-1 alpha-2 code (2 letters)
-isoA3: ISO 3166-1 alpha-3 code (3 letters)
-isoNum: ISO 3166-1 numeric code
-Example Entry
-{
-  \"PT\": {
-    \"name\": \"Portugal\",
-    \"callingCode\": 351,
-    \"isoA2\": \"PT\",
-    \"isoA3\": \"PRT\",
-    \"isoNum\": 620
-  }
-}
-JSON Data
 {
   \"AF\": {
     \"name\": \"Afghanistan\",
