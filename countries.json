@@ -1,0 +1,1402 @@
+International Country Codes and Calling Data Specification (ISO 3166-1)
+Contract{
+   "[ISO 3166-1 ALPHA-2]":{
+      "name":"string",
+      "callingCode":"number",
+      "isoA2":"string",
+      "isoA3":"string",
+      "isoNum":"number"
+   }
+}"Description
+This JSON structure represents country information where each entry is indexed by the country""s ISO 3166-1 alpha-2 code. Each country object contains:
+
+name: Full country name
+callingCode: International calling code without prefix
+isoA2: ISO 3166-1 alpha-2 code (2 letters)
+isoA3: ISO 3166-1 alpha-3 code (3 letters)
+isoNum: ISO 3166-1 numeric code
+Example Entry
+{
+  \"PT\": {
+    \"name\": \"Portugal\",
+    \"callingCode\": 351,
+    \"isoA2\": \"PT\",
+    \"isoA3\": \"PRT\",
+    \"isoNum\": 620
+  }
+}
+JSON Data
+{
+  \"AF\": {
+    \"name\": \"Afghanistan\",
+    \"callingCode\": 93,
+    \"isoA2\": \"AF\",
+    \"isoA3\": \"AFG\",
+    \"isoNum\": 4
+  },
+  \"AL\": {
+    \"name\": \"Albania\",
+    \"callingCode\": 355,
+    \"isoA2\": \"AL\",
+    \"isoA3\": \"ALB\",
+    \"isoNum\": 8
+  },
+  \"DZ\": {
+    \"name\": \"Algeria\",
+    \"callingCode\": 213,
+    \"isoA2\": \"DZ\",
+    \"isoA3\": \"DZA\",
+    \"isoNum\": 12
+  },
+  \"AS\": {
+    \"name\": \"American Samoa\",
+    \"callingCode\": 1684,
+    \"isoA2\": \"AS\",
+    \"isoA3\": \"ASM\",
+    \"isoNum\": 16
+  },
+  \"AD\": {
+    \"name\": \"Andorra\",
+    \"callingCode\": 376,
+    \"isoA2\": \"AD\",
+    \"isoA3\": \"AND\",
+    \"isoNum\": 20
+  },
+  \"AO\": {
+    \"name\": \"Angola\",
+    \"callingCode\": 244,
+    \"isoA2\": \"AO\",
+    \"isoA3\": \"AGO\",
+    \"isoNum\": 24
+  },
+  \"AG\": {
+    \"name\": \"Antigua and Barbuda\",
+    \"callingCode\": 1268,
+    \"isoA2\": \"AG\",
+    \"isoA3\": \"ATG\",
+    \"isoNum\": 28
+  },
+  \"AZ\": {
+    \"name\": \"Azerbaijan\",
+    \"callingCode\": 994,
+    \"isoA2\": \"AZ\",
+    \"isoA3\": \"AZE\",
+    \"isoNum\": 31
+  },
+  \"AR\": {
+    \"name\": \"Argentina\",
+    \"callingCode\": 54,
+    \"isoA2\": \"AR\",
+    \"isoA3\": \"ARG\",
+    \"isoNum\": 32
+  },
+  \"AU\": {
+    \"name\": \"Australia\",
+    \"callingCode\": 61,
+    \"isoA2\": \"AU\",
+    \"isoA3\": \"AUS\",
+    \"isoNum\": 36
+  },
+  \"AT\": {
+    \"name\": \"Austria\",
+    \"callingCode\": 43,
+    \"isoA2\": \"AT\",
+    \"isoA3\": \"AUT\",
+    \"isoNum\": 40
+  },
+  \"BS\": {
+    \"name\": \"Bahamas\",
+    \"callingCode\": 1242,
+    \"isoA2\": \"BS\",
+    \"isoA3\": \"BHS\",
+    \"isoNum\": 44
+  },
+  \"BH\": {
+    \"name\": \"Bahrain\",
+    \"callingCode\": 973,
+    \"isoA2\": \"BH\",
+    \"isoA3\": \"BHR\",
+    \"isoNum\": 48
+  },
+  \"BD\": {
+    \"name\": \"Bangladesh\",
+    \"callingCode\": 880,
+    \"isoA2\": \"BD\",
+    \"isoA3\": \"BGD\",
+    \"isoNum\": 50
+  },
+  \"AM\": {
+    \"name\": \"Armenia\",
+    \"callingCode\": 374,
+    \"isoA2\": \"AM\",
+    \"isoA3\": \"ARM\",
+    \"isoNum\": 51
+  },
+  \"BB\": {
+    \"name\": \"Barbados\",
+    \"callingCode\": 1246,
+    \"isoA2\": \"BB\",
+    \"isoA3\": \"BRB\",
+    \"isoNum\": 52
+  },
+  \"BE\": {
+    \"name\": \"Belgium\",
+    \"callingCode\": 32,
+    \"isoA2\": \"BE\",
+    \"isoA3\": \"BEL\",
+    \"isoNum\": 56
+  },
+  \"BZ\": {
+    \"name\": \"Belize\",
+    \"callingCode\": 501,
+    \"isoA2\": \"BZ\",
+    \"isoA3\": \"BLZ\",
+    \"isoNum\": 84
+  },
+  \"BJ\": {
+    \"name\": \"Benin\",
+    \"callingCode\": 229,
+    \"isoA2\": \"BJ\",
+    \"isoA3\": \"BEN\",
+    \"isoNum\": 204
+  },
+  \"BT\": {
+    \"name\": \"Bhutan\",
+    \"callingCode\": 975,
+    \"isoA2\": \"BT\",
+    \"isoA3\": \"BTN\",
+    \"isoNum\": 64
+  },
+  \"BO\": {
+    \"name\": \"Bolivia\",
+    \"callingCode\": 591,
+    \"isoA2\": \"BO\",
+    \"isoA3\": \"BOL\",
+    \"isoNum\": 68
+  },
+  \"BA\": {
+    \"name\": \"Bosnia and Herzegovina\",
+    \"callingCode\": 387,
+    \"isoA2\": \"BA\",
+    \"isoA3\": \"BIH\",
+    \"isoNum\": 70
+  },
+  \"BW\": {
+    \"name\": \"Botswana\",
+    \"callingCode\": 267,
+    \"isoA2\": \"BW\",
+    \"isoA3\": \"BWA\",
+    \"isoNum\": 72
+  },
+  \"BR\": {
+    \"name\": \"Brazil\",
+    \"callingCode\": 55,
+    \"isoA2\": \"BR\",
+    \"isoA3\": \"BRA\",
+    \"isoNum\": 76
+  },
+  \"BN\": {
+    \"name\": \"Brunei\",
+    \"callingCode\": 673,
+    \"isoA2\": \"BN\",
+    \"isoA3\": \"BRN\",
+    \"isoNum\": 96
+  },
+  \"BG\": {
+    \"name\": \"Bulgaria\",
+    \"callingCode\": 359,
+    \"isoA2\": \"BG\",
+    \"isoA3\": \"BGR\",
+    \"isoNum\": 100
+  },
+  \"BF\": {
+    \"name\": \"Burkina Faso\",
+    \"callingCode\": 226,
+    \"isoA2\": \"BF\",
+    \"isoA3\": \"BFA\",
+    \"isoNum\": 854
+  },
+  \"BI\": {
+    \"name\": \"Burundi\",
+    \"callingCode\": 257,
+    \"isoA2\": \"BI\",
+    \"isoA3\": \"BDI\",
+    \"isoNum\": 108
+  },
+  \"KH\": {
+    \"name\": \"Cambodia\",
+    \"callingCode\": 855,
+    \"isoA2\": \"KH\",
+    \"isoA3\": \"KHM\",
+    \"isoNum\": 116
+  },
+  \"CM\": {
+    \"name\": \"Cameroon\",
+    \"callingCode\": 237,
+    \"isoA2\": \"CM\",
+    \"isoA3\": \"CMR\",
+    \"isoNum\": 120
+  },
+  \"CA\": {
+    \"name\": \"Canada\",
+    \"callingCode\": 1,
+    \"isoA2\": \"CA\",
+    \"isoA3\": \"CAN\",
+    \"isoNum\": 124
+  },
+  \"CV\": {
+    \"name\": \"Cape Verde\",
+    \"callingCode\": 238,
+    \"isoA2\": \"CV\",
+    \"isoA3\": \"CPV\",
+    \"isoNum\": 132
+  },
+  \"CF\": {
+    \"name\": \"Central African Republic\",
+    \"callingCode\": 236,
+    \"isoA2\": \"CF\",
+    \"isoA3\": \"CAF\",
+    \"isoNum\": 140
+  },
+  \"TD\": {
+    \"name\": \"Chad\",
+    \"callingCode\": 235,
+    \"isoA2\": \"TD\",
+    \"isoA3\": \"TCD\",
+    \"isoNum\": 148
+  },
+  \"CL\": {
+    \"name\": \"Chile\",
+    \"callingCode\": 56,
+    \"isoA2\": \"CL\",
+    \"isoA3\": \"CHL\",
+    \"isoNum\": 152
+  },
+  \"CN\": {
+    \"name\": \"China\",
+    \"callingCode\": 86,
+    \"isoA2\": \"CN\",
+    \"isoA3\": \"CHN\",
+    \"isoNum\": 156
+  },
+  \"CO\": {
+    \"name\": \"Colombia\",
+    \"callingCode\": 57,
+    \"isoA2\": \"CO\",
+    \"isoA3\": \"COL\",
+    \"isoNum\": 170
+  },
+  \"KM\": {
+    \"name\": \"Comoros\",
+    \"callingCode\": 269,
+    \"isoA2\": \"KM\",
+    \"isoA3\": \"COM\",
+    \"isoNum\": 174
+  },
+  \"CG\": {
+    \"name\": \"Congo\",
+    \"callingCode\": 242,
+    \"isoA2\": \"CG\",
+    \"isoA3\": \"COG\",
+    \"isoNum\": 178
+  },
+  \"CD\": {
+    \"name\": \"Congo (Democratic Republic)\",
+    \"callingCode\": 243,
+    \"isoA2\": \"CD\",
+    \"isoA3\": \"COD\",
+    \"isoNum\": 180
+  },
+  \"CR\": {
+    \"name\": \"Costa Rica\",
+    \"callingCode\": 506,
+    \"isoA2\": \"CR\",
+    \"isoA3\": \"CRI\",
+    \"isoNum\": 188
+  },
+  \"CI\": {
+    \"name\": \"Côte d""Ivoire"",
+    ""callingCode"": 225,
+    "isoA2": ""CI"",
+    "isoA3": ""CIV"",
+    ""isoNum"": 384
+  },
+  ""HR"": {
+    ""name"": ""Croatia"",
+    ""callingCode"": 385,
+    "isoA2": ""HR"",
+    "isoA3": ""HRV"",
+    ""isoNum"": 191
+  },
+  ""CU"": {
+    ""name"": ""Cuba"",
+    ""callingCode"": 53,
+    "isoA2": ""CU"",
+    "isoA3": ""CUB"",
+    ""isoNum"": 192
+  },
+  ""CY"": {
+    ""name"": ""Cyprus"",
+    ""callingCode"": 357,
+    "isoA2": ""CY"",
+    "isoA3": ""CYP"",
+    ""isoNum"": 196
+  },
+  ""CZ"": {
+    ""name"": ""Czech Republic"",
+    ""callingCode"": 420,
+    "isoA2": ""CZ"",
+    "isoA3": ""CZE"",
+    ""isoNum"": 203
+  },
+  ""DK"": {
+    ""name"": ""Denmark"",
+    ""callingCode"": 45,
+    "isoA2": ""DK"",
+    "isoA3": ""DNK"",
+    ""isoNum"": 208
+  },
+  ""DJ"": {
+    ""name"": ""Djibouti"",
+    ""callingCode"": 253,
+    "isoA2": ""DJ"",
+    "isoA3": ""DJI"",
+    ""isoNum"": 262
+  },
+  ""DM"": {
+    ""name"": ""Dominica"",
+    ""callingCode"": 1767,
+    "isoA2": ""DM"",
+    "isoA3": ""DMA"",
+    ""isoNum"": 212
+  },
+  ""DO"": {
+    ""name"": ""Dominican Republic"",
+    ""callingCode"": 1809,
+    "isoA2": ""DO"",
+    "isoA3": ""DOM"",
+    ""isoNum"": 214
+  },
+  ""EC"": {
+    ""name"": ""Ecuador"",
+    ""callingCode"": 593,
+    "isoA2": ""EC"",
+    "isoA3": ""ECU"",
+    ""isoNum"": 218
+  },
+  ""EG"": {
+    ""name"": ""Egypt"",
+    ""callingCode"": 20,
+    "isoA2": ""EG"",
+    "isoA3": ""EGY"",
+    ""isoNum"": 818
+  },
+  ""SV"": {
+    ""name"": ""El Salvador"",
+    ""callingCode"": 503,
+    "isoA2": ""SV"",
+    "isoA3": ""SLV"",
+    ""isoNum"": 222
+  },
+  ""GQ"": {
+    ""name"": ""Equatorial Guinea"",
+    ""callingCode"": 240,
+    "isoA2": ""GQ"",
+    "isoA3": ""GNQ"",
+    ""isoNum"": 226
+  },
+  ""ER"": {
+    ""name"": ""Eritrea"",
+    ""callingCode"": 291,
+    "isoA2": ""ER"",
+    "isoA3": ""ERI"",
+    ""isoNum"": 232
+  },
+  ""EE"": {
+    ""name"": ""Estonia"",
+    ""callingCode"": 372,
+    "isoA2": ""EE"",
+    "isoA3": ""EST"",
+    ""isoNum"": 233
+  },
+  ""SZ"": {
+    ""name"": ""Eswatini"",
+    ""callingCode"": 268,
+    "isoA2": ""SZ"",
+    "isoA3": ""SWZ"",
+    ""isoNum"": 748
+  },
+  ""ET"": {
+    ""name"": ""Ethiopia"",
+    ""callingCode"": 251,
+    "isoA2": ""ET"",
+    "isoA3": ""ETH"",
+    ""isoNum"": 231
+  },
+  ""FJ"": {
+    ""name"": ""Fiji"",
+    ""callingCode"": 679,
+    "isoA2": ""FJ"",
+    "isoA3": ""FJI"",
+    ""isoNum"": 242
+  },
+  ""FI"": {
+    ""name"": ""Finland"",
+    ""callingCode"": 358,
+    "isoA2": ""FI"",
+    "isoA3": ""FIN"",
+    ""isoNum"": 246
+  },
+  ""FR"": {
+    ""name"": ""France"",
+    ""callingCode"": 33,
+    "isoA2": ""FR"",
+    "isoA3": ""FRA"",
+    ""isoNum"": 250
+  },
+  ""GA"": {
+    ""name"": ""Gabon"",
+    ""callingCode"": 241,
+    "isoA2": ""GA"",
+    "isoA3": ""GAB"",
+    ""isoNum"": 266
+  },
+  ""GM"": {
+    ""name"": ""Gambia"",
+    ""callingCode"": 220,
+    "isoA2": ""GM"",
+    "isoA3": ""GMB"",
+    ""isoNum"": 270
+  },
+  ""GE"": {
+    ""name"": ""Georgia"",
+    ""callingCode"": 995,
+    "isoA2": ""GE"",
+    "isoA3": ""GEO"",
+    ""isoNum"": 268
+  },
+  ""DE"": {
+    ""name"": ""Germany"",
+    ""callingCode"": 49,
+    "isoA2": ""DE"",
+    "isoA3": ""DEU"",
+    ""isoNum"": 276
+  },
+  ""GH"": {
+    ""name"": ""Ghana"",
+    ""callingCode"": 233,
+    "isoA2": ""GH"",
+    "isoA3": ""GHA"",
+    ""isoNum"": 288
+  },
+  ""GR"": {
+    ""name"": ""Greece"",
+    ""callingCode"": 30,
+    "isoA2": ""GR"",
+    "isoA3": ""GRC"",
+    ""isoNum"": 300
+  },
+  ""GD"": {
+    ""name"": ""Grenada"",
+    ""callingCode"": 1473,
+    "isoA2": ""GD"",
+    "isoA3": ""GRD"",
+    ""isoNum"": 308
+  },
+  ""GU"": {
+    ""name"": ""Guam"",
+    ""callingCode"": 1671,
+    "isoA2": ""GU"",
+    "isoA3": ""GUM"",
+    ""isoNum"": 316
+  },
+  ""GT"": {
+    ""name"": ""Guatemala"",
+    ""callingCode"": 502,
+    "isoA2": ""GT"",
+    "isoA3": ""GTM"",
+    ""isoNum"": 320
+  },
+  ""GN"": {
+    ""name"": ""Guinea"",
+    ""callingCode"": 224,
+    "isoA2": ""GN"",
+    "isoA3": ""GIN"",
+    ""isoNum"": 324
+  },
+  ""GW"": {
+    ""name"": ""Guinea-Bissau"",
+    ""callingCode"": 245,
+    "isoA2": ""GW"",
+    "isoA3": ""GNB"",
+    ""isoNum"": 624
+  },
+  ""GY"": {
+    ""name"": ""Guyana"",
+    ""callingCode"": 592,
+    "isoA2": ""GY"",
+    "isoA3": ""GUY"",
+    ""isoNum"": 328
+  },
+  ""HT"": {
+    ""name"": ""Haiti"",
+    ""callingCode"": 509,
+    "isoA2": ""HT"",
+    "isoA3": ""HTI"",
+    ""isoNum"": 332
+  },
+  ""HN"": {
+    ""name"": ""Honduras"",
+    ""callingCode"": 504,
+    "isoA2": ""HN"",
+    "isoA3": ""HND"",
+    ""isoNum"": 340
+  },
+  ""HU"": {
+    ""name"": ""Hungary"",
+    ""callingCode"": 36,
+    "isoA2": ""HU"",
+    "isoA3": ""HUN"",
+    ""isoNum"": 348
+  },
+  ""IS"": {
+    ""name"": ""Iceland"",
+    ""callingCode"": 354,
+    "isoA2": ""IS"",
+    "isoA3": ""ISL"",
+    ""isoNum"": 352
+  },
+  ""IN"": {
+    ""name"": ""India"",
+    ""callingCode"": 91,
+    "isoA2": ""IN"",
+    "isoA3": ""IND"",
+    ""isoNum"": 356
+  },
+  ""ID"": {
+    ""name"": ""Indonesia"",
+    ""callingCode"": 62,
+    "isoA2": ""ID"",
+    "isoA3": ""IDN"",
+    ""isoNum"": 360
+  },
+  ""IR"": {
+    ""name"": ""Iran"",
+    ""callingCode"": 98,
+    "isoA2": ""IR"",
+    "isoA3": ""IRN"",
+    ""isoNum"": 364
+  },
+  ""IQ"": {
+    ""name"": ""Iraq"",
+    ""callingCode"": 964,
+    "isoA2": ""IQ"",
+    "isoA3": ""IRQ"",
+    ""isoNum"": 368
+  },
+  ""IE"": {
+    ""name"": ""Ireland"",
+    ""callingCode"": 353,
+    "isoA2": ""IE"",
+    "isoA3": ""IRL"",
+    ""isoNum"": 372
+  },
+  ""IL"": {
+    ""name"": ""Israel"",
+    ""callingCode"": 972,
+    "isoA2": ""IL"",
+    "isoA3": ""ISR"",
+    ""isoNum"": 376
+  },
+  ""IT"": {
+    ""name"": ""Italy"",
+    ""callingCode"": 39,
+    "isoA2": ""IT"",
+    "isoA3": ""ITA"",
+    ""isoNum"": 380
+  },
+  ""JM"": {
+    ""name"": ""Jamaica"",
+    ""callingCode"": 1876,
+    "isoA2": ""JM"",
+    "isoA3": ""JAM"",
+    ""isoNum"": 388
+  },
+  ""JP"": {
+    ""name"": ""Japan"",
+    ""callingCode"": 81,
+    "isoA2": ""JP"",
+    "isoA3": ""JPN"",
+    ""isoNum"": 392
+  },
+  ""JO"": {
+    ""name"": ""Jordan"",
+    ""callingCode"": 962,
+    "isoA2": ""JO"",
+    "isoA3": ""JOR"",
+    ""isoNum"": 400
+  },
+  ""KZ"": {
+    ""name"": ""Kazakhstan"",
+    ""callingCode"": 7,
+    "isoA2": ""KZ"",
+    "isoA3": ""KAZ"",
+    ""isoNum"": 398
+  },
+  ""KE"": {
+    ""name"": ""Kenya"",
+    ""callingCode"": 254,
+    "isoA2": ""KE"",
+    "isoA3": ""KEN"",
+    ""isoNum"": 404
+  },
+  ""KI"": {
+    ""name"": ""Kiribati"",
+    ""callingCode"": 686,
+    "isoA2": ""KI"",
+    "isoA3": ""KIR"",
+    ""isoNum"": 296
+  },
+  ""KP"": {
+    ""name"": ""North Korea"",
+    ""callingCode"": 850,
+    "isoA2": ""KP"",
+    "isoA3": ""PRK"",
+    ""isoNum"": 408
+  },
+  ""KR"": {
+    ""name"": ""South Korea"",
+    ""callingCode"": 82,
+    "isoA2": ""KR"",
+    "isoA3": ""KOR"",
+    ""isoNum"": 410
+  },
+  ""KW"": {
+    ""name"": ""Kuwait"",
+    ""callingCode"": 965,
+    "isoA2": ""KW"",
+    "isoA3": ""KWT"",
+    ""isoNum"": 414
+  },
+  ""KG"": {
+    ""name"": ""Kyrgyzstan"",
+    ""callingCode"": 996,
+    "isoA2": ""KG"",
+    "isoA3": ""KGZ"",
+    ""isoNum"": 417
+  },
+  ""LA"": {
+    ""name"": ""Laos"",
+    ""callingCode"": 856,
+    "isoA2": ""LA"",
+    "isoA3": ""LAO"",
+    ""isoNum"": 418
+  },
+  ""LV"": {
+    ""name"": ""Latvia"",
+    ""callingCode"": 371,
+    "isoA2": ""LV"",
+    "isoA3": ""LVA"",
+    ""isoNum"": 428
+  },
+  ""LB"": {
+    ""name"": ""Lebanon"",
+    ""callingCode"": 961,
+    "isoA2": ""LB"",
+    "isoA3": ""LBN"",
+    ""isoNum"": 422
+  },
+  ""LS"": {
+    ""name"": ""Lesotho"",
+    ""callingCode"": 266,
+    "isoA2": ""LS"",
+    "isoA3": ""LSO"",
+    ""isoNum"": 426
+  },
+  ""LR"": {
+    ""name"": ""Liberia"",
+    ""callingCode"": 231,
+    "isoA2": ""LR"",
+    "isoA3": ""LBR"",
+    ""isoNum"": 430
+  },
+  ""LY"": {
+    ""name"": ""Libya"",
+    ""callingCode"": 218,
+    "isoA2": ""LY"",
+    "isoA3": ""LBY"",
+    ""isoNum"": 434
+  },
+  ""LI"": {
+    ""name"": ""Liechtenstein"",
+    ""callingCode"": 423,
+    "isoA2": ""LI"",
+    "isoA3": ""LIE"",
+    ""isoNum"": 438
+  },
+  ""LT"": {
+    ""name"": ""Lithuania"",
+    ""callingCode"": 370,
+    "isoA2": ""LT"",
+    "isoA3": ""LTU"",
+    ""isoNum"": 440
+  },
+  ""LU"": {
+    ""name"": ""Luxembourg"",
+    ""callingCode"": 352,
+    "isoA2": ""LU"",
+    "isoA3": ""LUX"",
+    ""isoNum"": 442
+  },
+  ""MG"": {
+    ""name"": ""Madagascar"",
+    ""callingCode"": 261,
+    "isoA2": ""MG"",
+    "isoA3": ""MDG"",
+    ""isoNum"": 450
+  },
+  ""MW"": {
+    ""name"": ""Malawi"",
+    ""callingCode"": 265,
+    "isoA2": ""MW"",
+    "isoA3": ""MWI"",
+    ""isoNum"": 454
+  },
+  ""MY"": {
+    ""name"": ""Malaysia"",
+    ""callingCode"": 60,
+    "isoA2": ""MY"",
+    "isoA3": ""MYS"",
+    ""isoNum"": 458
+  },
+  ""MV"": {
+    ""name"": ""Maldives"",
+    ""callingCode"": 960,
+    "isoA2": ""MV"",
+    "isoA3": ""MDV"",
+    ""isoNum"": 462
+  },
+  ""ML"": {
+    ""name"": ""Mali"",
+    ""callingCode"": 223,
+    "isoA2": ""ML"",
+    "isoA3": ""MLI"",
+    ""isoNum"": 466
+  },
+  ""MT"": {
+    ""name"": ""Malta"",
+    ""callingCode"": 356,
+    "isoA2": ""MT"",
+    "isoA3": ""MLT"",
+    ""isoNum"": 470
+  },
+  ""MH"": {
+    ""name"": ""Marshall Islands"",
+    ""callingCode"": 692,
+    "isoA2": ""MH"",
+    "isoA3": ""MHL"",
+    ""isoNum"": 584
+  },
+  ""MR"": {
+    ""name"": ""Mauritania"",
+    ""callingCode"": 222,
+    "isoA2": ""MR"",
+    "isoA3": ""MRT"",
+    ""isoNum"": 478
+  },
+  ""MU"": {
+    ""name"": ""Mauritius"",
+    ""callingCode"": 230,
+    "isoA2": ""MU"",
+    "isoA3": ""MUS"",
+    ""isoNum"": 480
+  },
+  ""MX"": {
+    ""name"": ""Mexico"",
+    ""callingCode"": 52,
+    "isoA2": ""MX"",
+    "isoA3": ""MEX"",
+    ""isoNum"": 484
+  },
+  ""FM"": {
+    ""name"": ""Micronesia (Federated States of)"",
+    ""callingCode"": 691,
+    "isoA2": ""FM"",
+    "isoA3": ""FSM"",
+    ""isoNum"": 583
+  },
+  ""MD"": {
+    ""name"": ""Moldova"",
+    ""callingCode"": 373,
+    "isoA2": ""MD"",
+    "isoA3": ""MDA"",
+    ""isoNum"": 498
+  },
+  ""MC"": {
+    ""name"": ""Monaco"",
+    ""callingCode"": 377,
+    "isoA2": ""MC"",
+    "isoA3": ""MCO"",
+    ""isoNum"": 492
+  },
+  ""MN"": {
+    ""name"": ""Mongolia"",
+    ""callingCode"": 976,
+    "isoA2": ""MN"",
+    "isoA3": ""MNG"",
+    ""isoNum"": 496
+  },
+  ""ME"": {
+    ""name"": ""Montenegro"",
+    ""callingCode"": 382,
+    "isoA2": ""ME"",
+    "isoA3": ""MNE"",
+    ""isoNum"": 499
+  },
+  ""MA"": {
+    ""name"": ""Morocco"",
+    ""callingCode"": 212,
+    "isoA2": ""MA"",
+    "isoA3": ""MAR"",
+    ""isoNum"": 504
+  },
+  ""MZ"": {
+    ""name"": ""Mozambique"",
+    ""callingCode"": 258,
+    "isoA2": ""MZ"",
+    "isoA3": ""MOZ"",
+    ""isoNum"": 508
+  },
+  ""MM"": {
+    ""name"": ""Myanmar"",
+    ""callingCode"": 95,
+    "isoA2": ""MM"",
+    "isoA3": ""MMR"",
+    ""isoNum"": 104
+  },
+  ""NA"": {
+    ""name"": ""Namibia"",
+    ""callingCode"": 264,
+    "isoA2": ""NA"",
+    "isoA3": ""NAM"",
+    ""isoNum"": 516
+  },
+  ""NR"": {
+    ""name"": ""Nauru"",
+    ""callingCode"": 674,
+    "isoA2": ""NR"",
+    "isoA3": ""NRU"",
+    ""isoNum"": 520
+  },
+  ""NP"": {
+    ""name"": ""Nepal"",
+    ""callingCode"": 977,
+    "isoA2": ""NP"",
+    "isoA3": ""NPL"",
+    ""isoNum"": 524
+  },
+  ""NL"": {
+    ""name"": ""Netherlands"",
+    ""callingCode"": 31,
+    "isoA2": ""NL"",
+    "isoA3": ""NLD"",
+    ""isoNum"": 528
+  },
+  ""NZ"": {
+    ""name"": ""New Zealand"",
+    ""callingCode"": 64,
+    "isoA2": ""NZ"",
+    "isoA3": ""NZL"",
+    ""isoNum"": 554
+  },
+  ""NI"": {
+    ""name"": ""Nicaragua"",
+    ""callingCode"": 505,
+    "isoA2": ""NI"",
+    "isoA3": ""NIC"",
+    ""isoNum"": 558
+  },
+  ""NE"": {
+    ""name"": ""Niger"",
+    ""callingCode"": 227,
+    "isoA2": ""NE"",
+    "isoA3": ""NER"",
+    ""isoNum"": 562
+  },
+  ""NG"": {
+    ""name"": ""Nigeria"",
+    ""callingCode"": 234,
+    "isoA2": ""NG"",
+    "isoA3": ""NGA"",
+    ""isoNum"": 566
+  },
+  ""NO"": {
+    ""name"": ""Norway"",
+    ""callingCode"": 47,
+    "isoA2": ""NO"",
+    "isoA3": ""NOR"",
+    ""isoNum"": 578
+  },
+  ""OM"": {
+    ""name"": ""Oman"",
+    ""callingCode"": 968,
+    "isoA2": ""OM"",
+    "isoA3": ""OMN"",
+    ""isoNum"": 512
+  },
+  ""PK"": {
+    ""name"": ""Pakistan"",
+    ""callingCode"": 92,
+    "isoA2": ""PK"",
+    "isoA3": ""PAK"",
+    ""isoNum"": 586
+  },
+  ""PW"": {
+    ""name"": ""Palau"",
+    ""callingCode"": 680,
+    "isoA2": ""PW"",
+    "isoA3": ""PLW"",
+    ""isoNum"": 585
+  },
+  ""PS"": {
+    ""name"": ""Palestine"",
+    ""callingCode"": 970,
+    "isoA2": ""PS"",
+    "isoA3": ""PSE"",
+    ""isoNum"": 275
+  },
+  ""PA"": {
+    ""name"": ""Panama"",
+    ""callingCode"": 507,
+    "isoA2": ""PA"",
+    "isoA3": ""PAN"",
+    ""isoNum"": 591
+  },
+  ""PG"": {
+    ""name"": ""Papua New Guinea"",
+    ""callingCode"": 675,
+    "isoA2": ""PG"",
+    "isoA3": ""PNG"",
+    ""isoNum"": 598
+  },
+  ""PY"": {
+    ""name"": ""Paraguay"",
+    ""callingCode"": 595,
+    "isoA2": ""PY"",
+    "isoA3": ""PRY"",
+    ""isoNum"": 600
+  },
+  ""PE"": {
+    ""name"": ""Peru"",
+    ""callingCode"": 51,
+    "isoA2": ""PE"",
+    "isoA3": ""PER"",
+    ""isoNum"": 604
+  },
+  ""PH"": {
+    ""name"": ""Philippines"",
+    ""callingCode"": 63,
+    "isoA2": ""PH"",
+    "isoA3": ""PHL"",
+    ""isoNum"": 608
+  },
+  ""PL"": {
+    ""name"": ""Poland"",
+    ""callingCode"": 48,
+    "isoA2": ""PL"",
+    "isoA3": ""POL"",
+    ""isoNum"": 616
+  },
+  ""PT"": {
+    ""name"": ""Portugal"",
+    ""callingCode"": 351,
+    "isoA2": ""PT"",
+    "isoA3": ""PRT"",
+    ""isoNum"": 620
+  },
+  ""QA"": {
+    ""name"": ""Qatar"",
+    ""callingCode"": 974,
+    "isoA2": ""QA"",
+    "isoA3": ""QAT"",
+    ""isoNum"": 634
+  },
+  ""RO"": {
+    ""name"": ""Romania"",
+    ""callingCode"": 40,
+    "isoA2": ""RO"",
+    "isoA3": ""ROU"",
+    ""isoNum"": 642
+  },
+  ""RU"": {
+    ""name"": ""Russia"",
+    ""callingCode"": 7,
+    "isoA2": ""RU"",
+    "isoA3": ""RUS"",
+    ""isoNum"": 643
+  },
+  ""RW"": {
+    ""name"": ""Rwanda"",
+    ""callingCode"": 250,
+    "isoA2": ""RW"",
+    "isoA3": ""RWA"",
+    ""isoNum"": 646
+  },
+  ""KN"": {
+    ""name"": ""Saint Kitts and Nevis"",
+    ""callingCode"": 1869,
+    "isoA2": ""KN"",
+    "isoA3": ""KNA"",
+    ""isoNum"": 659
+  },
+  ""LC"": {
+    ""name"": ""Saint Lucia"",
+    ""callingCode"": 1758,
+    "isoA2": ""LC"",
+    "isoA3": ""LCA"",
+    ""isoNum"": 662
+  },
+  ""VC"": {
+    ""name"": ""Saint Vincent and the Grenadines"",
+    ""callingCode"": 1784,
+    "isoA2": ""VC"",
+    "isoA3": ""VCT"",
+    ""isoNum"": 670
+  },
+  ""WS"": {
+    ""name"": ""Samoa"",
+    ""callingCode"": 685,
+    "isoA2": ""WS"",
+    "isoA3": ""WSM"",
+    ""isoNum"": 882
+  },
+  ""SM"": {
+    ""name"": ""San Marino"",
+    ""callingCode"": 378,
+    "isoA2": ""SM"",
+    "isoA3": ""SMR"",
+    ""isoNum"": 674
+  },
+  ""ST"": {
+    ""name"": ""Sao Tome and Principe"",
+    ""callingCode"": 239,
+    "isoA2": ""ST"",
+    "isoA3": ""STP"",
+    ""isoNum"": 678
+  },
+  ""SA"": {
+    ""name"": ""Saudi Arabia"",
+    ""callingCode"": 966,
+    "isoA2": ""SA"",
+    "isoA3": ""SAU"",
+    ""isoNum"": 682
+  },
+  ""SN"": {
+    ""name"": ""Senegal"",
+    ""callingCode"": 221,
+    "isoA2": ""SN"",
+    "isoA3": ""SEN"",
+    ""isoNum"": 686
+  },
+  ""RS"": {
+    ""name"": ""Serbia"",
+    ""callingCode"": 381,
+    "isoA2": ""RS"",
+    "isoA3": ""SRB"",
+    ""isoNum"": 688
+  },
+  ""SC"": {
+    ""name"": ""Seychelles"",
+    ""callingCode"": 248,
+    "isoA2": ""SC"",
+    "isoA3": ""SYC"",
+    ""isoNum"": 690
+  },
+  ""SL"": {
+    ""name"": ""Sierra Leone"",
+    ""callingCode"": 232,
+    "isoA2": ""SL"",
+    "isoA3": ""SLE"",
+    ""isoNum"": 694
+  },
+  ""SG"": {
+    ""name"": ""Singapore"",
+    ""callingCode"": 65,
+    "isoA2": ""SG"",
+    "isoA3": ""SGP"",
+    ""isoNum"": 702
+  },
+  ""SK"": {
+    ""name"": ""Slovakia"",
+    ""callingCode"": 421,
+    "isoA2": ""SK"",
+    "isoA3": ""SVK"",
+    ""isoNum"": 703
+  },
+  ""SI"": {
+    ""name"": ""Slovenia"",
+    ""callingCode"": 386,
+    "isoA2": ""SI"",
+    "isoA3": ""SVN"",
+    ""isoNum"": 705
+  },
+  ""SB"": {
+    ""name"": ""Solomon Islands"",
+    ""callingCode"": 677,
+    "isoA2": ""SB"",
+    "isoA3": ""SLB"",
+    ""isoNum"": 90
+  },
+  ""SO"": {
+    ""name"": ""Somalia"",
+    ""callingCode"": 252,
+    "isoA2": ""SO"",
+    "isoA3": ""SOM"",
+    ""isoNum"": 706
+  },
+  ""ZA"": {
+    ""name"": ""South Africa"",
+    ""callingCode"": 27,
+    "isoA2": ""ZA"",
+    "isoA3": ""ZAF"",
+    ""isoNum"": 710
+  },
+  ""SS"": {
+    ""name"": ""South Sudan"",
+    ""callingCode"": 211,
+    "isoA2": ""SS"",
+    "isoA3": ""SSD"",
+    ""isoNum"": 728
+  },
+  ""ES"": {
+    ""name"": ""Spain"",
+    ""callingCode"": 34,
+    "isoA2": ""ES"",
+    "isoA3": ""ESP"",
+    ""isoNum"": 724
+  },
+  ""LK"": {
+    ""name"": ""Sri Lanka"",
+    ""callingCode"": 94,
+    "isoA2": ""LK"",
+    "isoA3": ""LKA"",
+    ""isoNum"": 144
+  },
+  ""SD"": {
+    ""name"": ""Sudan"",
+    ""callingCode"": 249,
+    "isoA2": ""SD"",
+    "isoA3": ""SDN"",
+    ""isoNum"": 729
+  },
+  ""SR"": {
+    ""name"": ""Suriname"",
+    ""callingCode"": 597,
+    "isoA2": ""SR"",
+    "isoA3": ""SUR"",
+    ""isoNum"": 740
+  },
+  ""SE"": {
+    ""name"": ""Sweden"",
+    ""callingCode"": 46,
+    "isoA2": ""SE"",
+    "isoA3": ""SWE"",
+    ""isoNum"": 752
+  },
+  ""CH"": {
+    ""name"": ""Switzerland"",
+    ""callingCode"": 41,
+    "isoA2": ""CH"",
+    "isoA3": ""CHE"",
+    ""isoNum"": 756
+  },
+  ""SY"": {
+    ""name"": ""Syria"",
+    ""callingCode"": 963,
+    "isoA2": ""SY"",
+    "isoA3": ""SYR"",
+    ""isoNum"": 760
+  },
+  ""TW"": {
+    ""name"": ""Taiwan"",
+    ""callingCode"": 886,
+    "isoA2": ""TW"",
+    "isoA3": ""TWN"",
+    ""isoNum"": 158
+  },
+  ""TJ"": {
+    ""name"": ""Tajikistan"",
+    ""callingCode"": 992,
+    "isoA2": ""TJ"",
+    "isoA3": ""TJK"",
+    ""isoNum"": 762
+  },
+  ""TZ"": {
+    ""name"": ""Tanzania"",
+    ""callingCode"": 255,
+    "isoA2": ""TZ"",
+    "isoA3": ""TZA"",
+    ""isoNum"": 834
+  },
+  ""TH"": {
+    ""name"": ""Thailand"",
+    ""callingCode"": 66,
+    "isoA2": ""TH"",
+    "isoA3": ""THA"",
+    ""isoNum"": 764
+  },
+  ""TL"": {
+    ""name"": ""Timor-Leste"",
+    ""callingCode"": 670,
+    "isoA2": ""TL"",
+    "isoA3": ""TLS"",
+    ""isoNum"": 626
+  },
+  ""TG"": {
+    ""name"": ""Togo"",
+    ""callingCode"": 228,
+    "isoA2": ""TG"",
+    "isoA3": ""TGO"",
+    ""isoNum"": 768
+  },
+  ""TO"": {
+    ""name"": ""Tonga"",
+    ""callingCode"": 676,
+    "isoA2": ""TO"",
+    "isoA3": ""TON"",
+    ""isoNum"": 776
+  },
+  ""TT"": {
+    ""name"": ""Trinidad and Tobago"",
+    ""callingCode"": 1868,
+    "isoA2": ""TT"",
+    "isoA3": ""TTO"",
+    ""isoNum"": 780
+  },
+  ""TN"": {
+    ""name"": ""Tunisia"",
+    ""callingCode"": 216,
+    "isoA2": ""TN"",
+    "isoA3": ""TUN"",
+    ""isoNum"": 788
+  },
+  ""TR"": {
+    ""name"": ""Turkey"",
+    ""callingCode"": 90,
+    "isoA2": ""TR"",
+    "isoA3": ""TUR"",
+    ""isoNum"": 792
+  },
+  ""TM"": {
+    ""name"": ""Turkmenistan"",
+    ""callingCode"": 993,
+    "isoA2": ""TM"",
+    "isoA3": ""TKM"",
+    ""isoNum"": 795
+  },
+  ""TV"": {
+    ""name"": ""Tuvalu"",
+    ""callingCode"": 688,
+    "isoA2": ""TV"",
+    "isoA3": ""TUV"",
+    ""isoNum"": 798
+  },
+  ""UG"": {
+    ""name"": ""Uganda"",
+    ""callingCode"": 256,
+    "isoA2": ""UG"",
+    "isoA3": ""UGA"",
+    ""isoNum"": 800
+  },
+  ""UA"": {
+    ""name"": ""Ukraine"",
+    ""callingCode"": 380,
+    "isoA2": ""UA"",
+    "isoA3": ""UKR"",
+    ""isoNum"": 804
+  },
+  ""AE"": {
+    ""name"": ""United Arab Emirates"",
+    ""callingCode"": 971,
+    "isoA2": ""AE"",
+    "isoA3": ""ARE"",
+    ""isoNum"": 784
+  },
+  ""GB"": {
+    ""name"": ""United Kingdom"",
+    ""callingCode"": 44,
+    "isoA2": ""GB"",
+    "isoA3": ""GBR"",
+    ""isoNum"": 826
+  },
+  ""US"": {
+    ""name"": ""United States"",
+    ""callingCode"": 1,
+    "isoA2": ""US"",
+    "isoA3": ""USA"",
+    ""isoNum"": 840
+  },
+  ""UY"": {
+    ""name"": ""Uruguay"",
+    ""callingCode"": 598,
+    "isoA2": ""UY"",
+    "isoA3": ""URY"",
+    ""isoNum"": 858
+  },
+  ""UZ"": {
+    ""name"": ""Uzbekistan"",
+    ""callingCode"": 998,
+    "isoA2": ""UZ"",
+    "isoA3": ""UZB"",
+    ""isoNum"": 860
+  },
+  ""VU"": {
+    ""name"": ""Vanuatu"",
+    ""callingCode"": 678,
+    "isoA2": ""VU"",
+    "isoA3": ""VUT"",
+    ""isoNum"": 548
+  },
+  ""VA"": {
+    ""name"": ""Vatican City"",
+    ""callingCode"": 379,
+    "isoA2": ""VA"",
+    "isoA3": ""VAT"",
+    ""isoNum"": 336
+  },
+  ""VE"": {
+    ""name"": ""Venezuela"",
+    ""callingCode"": 58,
+    "isoA2": ""VE"",
+    "isoA3": ""VEN"",
+    ""isoNum"": 862
+  },
+  ""VN"": {
+    ""name"": ""Vietnam"",
+    ""callingCode"": 84,
+    "isoA2": ""VN"",
+    "isoA3": ""VNM"",
+    ""isoNum"": 704
+  },
+  ""YE"": {
+    ""name"": ""Yemen"",
+    ""callingCode"": 967,
+    "isoA2": ""YE"",
+    "isoA3": ""YEM"",
+    ""isoNum"": 887
+  },
+  ""ZM"": {
+    ""name"": ""Zambia"",
+    ""callingCode"": 260,
+    "isoA2": ""ZM"",
+    "isoA3": ""ZMB"",
+    ""isoNum"": 894
+  },
+  ""ZW"": {
+    ""name"": ""Zimbabwe"",
+    ""callingCode"": 263,
+    "isoA2": ""ZW"",
+    "isoA3": ""ZWE"",
+    ""isoNum""\": 716
+  }
+}"
