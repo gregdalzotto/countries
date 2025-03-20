@@ -143,8 +143,8 @@ The `countries.json` file follows this format:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/country-codes-json.git
-   cd country-codes-json
+   git clone https://github.com/gregdalzotto/countries.git
+   cd countries
    ```
 
 2. Install the dependencies:
@@ -163,15 +163,15 @@ The `countries.json` file follows this format:
    const app = express();
    const port = 3000;
 
-   // Carregar os dados do countries.json
+   // load data from countries.json
    const countriesData = JSON.parse(fs.readFileSync(path.join(__dirname, 'countries.json'), 'utf8'));
 
-   // Endpoint para obter todos os países
+   // Endpoint get all countries
    app.get('/api/countries', (req, res) => {
      res.json(countriesData);
    });
 
-   // Endpoint para buscar por código ISO
+   // Endpoint get ISO code
    app.get('/api/countries/:isoCode', (req, res) => {
      const isoCode = req.params.isoCode.toUpperCase();
      const country = countriesData[isoCode];
@@ -183,7 +183,7 @@ The `countries.json` file follows this format:
      }
    });
 
-   // Endpoint para buscar por nome de país (filtro)
+   // Endpoint get by name (filter)
    app.get('/api/countries/search', (req, res) => {
      const name = req.query.name ? req.query.name.toLowerCase() : '';
      const filteredCountries = Object.values(countriesData).filter(country =>
@@ -193,7 +193,7 @@ The `countries.json` file follows this format:
      res.json(filteredCountries);
    });
 
-   // Iniciar o servidor
+   // Start Server
    app.listen(port, () => {
      console.log(`Server is running on http://localhost:${port}`);
    });
