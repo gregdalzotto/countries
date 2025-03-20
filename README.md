@@ -49,7 +49,7 @@ with open('countries.json', 'r', encoding='utf-8') as file:
     print(countries["AF"])  # Output: Data about Afghanistan
 ```
 
-## 🚀 API - Country Codes API
+## 🤖 API - Country Codes API
 
 In addition to the JSON file, this repository also provides a simple API to access country code information.
 
